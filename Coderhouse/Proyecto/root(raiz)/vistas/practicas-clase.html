@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es_AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>HOLA MUNDO</h1>
+        <h2 class="h2main">SOY EL H2 DEL MAIN</h2>
+    
+    <ul> <!--Usando el atajo li*N{contenido escribo mas rapido las li}-->
+        <li> <a href="./vistas/ejemplo-clase1.html">EJEMPLO CLASE 1 </a></li>
+        <li>Matias Perez</li>
+        <li>Martin Ocampo</li>
+        <li>Lucas Zarate</li>
+        <li>Braian Zapata</li>
+    </ul>
+    <ol>
+        <li>Poner a calentar el agua </li>
+        <li>Buscar el mate</li>
+        <li>Ponerle Yerba al mate</li>
+        <li>Poner el agua dentro del mate</li>
+        <li>Disfrutar</li>
+    </ol>
+    <hr>
+    <table border="1" cellspacing="50" cellpadding="10">
+        <tr>
+            <th>Cabeza 1</th>
+            <th>Cabeza 2</th>
+            <th>Cabeza 3 </th>
+            <th>Cabeza 4</th>
+        </tr>
+        <tr>
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+            <td>Dato 3</td>
+            <td>Dato 4</td>
+        </tr>
+        <tr>
+            <td>Dato 1A</td>
+            <td>Dato 2A</td>
+            <td>Dato 3A</td>
+            <td>Dato 4A</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="" method="get" enctype="text/plain">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <div>
+                <label for="userName">Nombre</label>
+                <input type="text" name="userName" id="userName">
+            </div>
+            <div>
+                <label for="userMail">Email</label>
+                <input type="email" name="userMail" id="userMail" required placeholder="ingrese su Email">
+        </div>
+        <div>
+            <label for="userPassword">Password</label>
+            <input type="password" name="userPassword" id="userPassword">
+        </div>
+        <div>
+            <label for="userText">Ingrese su Mensaje</label>
+            <textarea name="userText" id="userText" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="userFavColor">Color Favorito</label>
+            <input type="radio" name="userFavColor" id="userFavColor" value="Verde"> Verde
+            <input type="radio" name="userFavColor" id="userFavColor" value="Azul"> Azul
+        </div>
+        <div>
+        </fieldset>
+            <label for="">Acepta</label>
+            <input type="checkbox" name="" id="" value="1"> Aceptar Condiciones
+        </div>
+        <div>
+            <label for="userTalla">Su Talla</label>
+            <select name="Talles" id="userTalla" multiple>
+                <option value="" disabled selected >Su Talle Es:</option>
+                <option value="L">Large</option>
+                <option value="M">Medium</option>
+                <option value="S">Small</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="Limpiar Formulario">
+        </div>
+    </form>
+    </main>
+
+<footer>
+    <h2>SOY EL H2 DEL FOOTER</h2>
+</footer>
+</body>
+</html>
