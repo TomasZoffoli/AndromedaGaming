@@ -1,0 +1,21 @@
+#grilla {
+    display: grid;
+    grid-template-areas: "header header header"
+                         "nav nav nav"
+                         "main main main"
+                         "footer footer footer";
+    grid-template-rows: 4rem 40px auto auto ;
+    grid-template-columns: 20% auto 15%;
+}
+header {
+    grid-area: header;
+}
+footer{
+    grid-area: footer;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
